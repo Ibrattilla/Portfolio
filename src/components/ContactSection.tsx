@@ -109,12 +109,12 @@ export const ContactSection: React.FC = () => {
                   Telegram
                 </h4>
                 <a
-                  href="https://t.me/ibrattilla"
+                  href="https://t.me/IbrattillaRavshanov"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white hover:text-blue-400 font-bold text-base sm:text-lg transition-colors block mt-1 tracking-tight"
                 >
-                  @ibrattilla
+                  @IbrattillaRavshanov
                 </a>
                 <span className="text-xs text-gray-500 block mt-1">
                   {language === 'ru' ? 'Мгновенный ответ и связь' : 'Instant responses & feedback'}

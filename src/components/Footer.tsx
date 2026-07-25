@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
     },
     {
       name: 'Telegram',
-      url: 'https://t.me/ibrattilla',
+      url: 'https://t.me/IbrattillaRavshanov',
       icon: <Send size={18} className="transform rotate-[-30deg]" />,
       hoverClass: 'hover:text-blue-400 hover:bg-blue-400/10 hover:border-blue-400/20'
     }
