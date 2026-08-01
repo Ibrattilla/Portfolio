@@ -11,6 +11,7 @@ import sinauwImage from './assets/images/sinauw.png';
 import skySearchImage from './assets/images/sky_search.png';
 import schoolProductsImage from './assets/images/school_products.png';
 import arikImage from './assets/images/arik.png';
+import theBookBotImage from './assets/images/The_book_bot_img.png';
 
 export const translations: Record<'en' | 'ru', TranslationContent> = {
   en: {
@@ -281,7 +282,7 @@ export const projects: Project[] = [
         'Спроектировал современный темный интерфейс с плавными анимациями и интуитивным пользовательским опытом.'
       ]
     },
-    image: sinauwImage,
+    image: theBookBotImage,
     tech: ['Telegram Bot API', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
     demoUrl: 'https://t.me/TheB00K_bot',
     githubUrl: 'https://github.com/Ibrattilla/The-book-bot',
