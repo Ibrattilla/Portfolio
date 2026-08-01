@@ -11,6 +11,7 @@ import sinauwImage from './assets/images/sinauw.png';
 import skySearchImage from './assets/images/sky_search.png';
 import schoolProductsImage from './assets/images/school_products.png';
 import arikImage from './assets/images/arik.png';
+import theBookBotImage from './assets/images/the_book_bot.png';
 
 export const translations: Record<'en' | 'ru', TranslationContent> = {
   en: {
@@ -259,6 +260,34 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/ibrattilla/Arik',
     accentClass: 'text-amber-400 border-amber-400/20 bg-amber-400/10 hover:border-amber-400/40',
     glowClass: 'shadow-amber-400/10 hover:shadow-amber-400/20'
+  },
+  {
+    id: 'the-book-bot',
+    title: 'TheB00K_bot',
+    description: {
+      en: 'A Telegram bot for reading and buying books with an integrated mini-app, featuring a curated collection of literary masterpieces and one-touch ordering.',
+      ru: 'Telegram-бот для чтения и покупки книг с интегрированным мини-приложением, предлагающий коллекцию литературных шедевров и заказ в один клик.'
+    },
+    details: {
+      en: [
+        'Developed a Telegram bot with inline navigation and quick book search functionality.',
+        'Built a responsive mini-app with category filtering (Fantasy, Detective, Novel, Horror, Psychology, Classics).',
+        'Implemented one-touch ordering system with seamless Telegram integration.',
+        'Designed a modern dark-themed UI with smooth animations and intuitive user experience.'
+      ],
+      ru: [
+        'Разработал Telegram-бот с инлайн-навигацией и быстрым поиском книг.',
+        'Создал адаптивное мини-приложение с фильтрацией по категориям (Фантастика, Детектив, Роман, Ужасы, Психология, Классика).',
+        'Реализовал систему заказа в один клик с бесшовной интеграцией в Telegram.',
+        'Спроектировал современный темный интерфейс с плавными анимациями и интуитивным пользовательским опытом.'
+      ]
+    },
+    image: theBookBotImage,
+    tech: ['Telegram Bot API', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
+    demoUrl: 'https://t.me/TheB00K_bot',
+    githubUrl: '',
+    accentClass: 'text-emerald-400 border-emerald-400/20 bg-emerald-400/10 hover:border-emerald-400/40',
+    glowClass: 'shadow-emerald-400/10 hover:shadow-emerald-400/20'
   }
 ];
 
