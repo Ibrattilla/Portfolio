@@ -285,7 +285,7 @@ export const projects: Project[] = [
     image: theBookBotImage,
     tech: ['Telegram Bot API', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
     demoUrl: 'https://t.me/TheB00K_bot',
-    githubUrl: 'https://github.com/Ibrattilla/The-book-bot',
+    githubUrl: 'https://github.com/Ibrattilla/The-book-bot-',
     accentClass: 'text-emerald-400 border-emerald-400/20 bg-emerald-400/10 hover:border-emerald-400/40',
     glowClass: 'shadow-emerald-400/10 hover:shadow-emerald-400/20'
   }
