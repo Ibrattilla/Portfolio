@@ -262,7 +262,7 @@ export const projects: Project[] = [
   },
   {
     id: 'the-book-bot',
-    title: 'TheB00K_bot',
+    title: 'Book Bot',
     description: {
       en: 'A Telegram bot for reading and buying books with an integrated mini-app, featuring a curated collection of literary masterpieces and one-touch ordering.',
       ru: 'Telegram-бот для чтения и покупки книг с интегрированным мини-приложением, предлагающий коллекцию литературных шедевров и заказ в один клик.'
@@ -284,7 +284,7 @@ export const projects: Project[] = [
     image: sinauwImage,
     tech: ['Telegram Bot API', 'React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
     demoUrl: 'https://t.me/TheB00K_bot',
-    githubUrl: '',
+    githubUrl: 'https://github.com/Ibrattilla/The-book-bot',
     accentClass: 'text-emerald-400 border-emerald-400/20 bg-emerald-400/10 hover:border-emerald-400/40',
     glowClass: 'shadow-emerald-400/10 hover:shadow-emerald-400/20'
   }
